@@ -1,4 +1,4 @@
-# Week1Assignment
+# Week6Assignment
 
 ##	ARAŞTIRMA (10 puan)
 Lazy Loading ve Eager Loading arasındaki farkları yazınız.
