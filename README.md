@@ -18,7 +18,7 @@ Oluşturduğunuz bu Rest API içinde aşağıdaki endpointler olmalıdır:
 -	/product/{id}: id’ye göre ürün güncelleme işlemi yapılmalıdır. (PUT)
 -	/product/{id}: id’ye göre ürün slime işlemi yapılmalıdır. (DELETE)
 
-- Koşullar:
+Koşullar:
 -	Her endpoint işlem yapıldıktan sonra success mesajı döndürmelidir.
 -	Rest API için tüm dönüş değerleri Json tipinde olmalıdır.
 -	Rest API Postman ile çalıştırılabilir olmalıdır.
