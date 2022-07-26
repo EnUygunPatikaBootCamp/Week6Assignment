@@ -12,7 +12,7 @@ Symfony ile temel bir Rest API oluşturunuz. Bu Rest API ile bir Kullanıcı ür
 - urunFiyati,
 - urunKayitTarihi
 
--Oluşturduğunuz bu Rest API içinde aşağıdaki endpointler olmalıdır:
+Oluşturduğunuz bu Rest API içinde aşağıdaki endpointler olmalıdır:
 -	/product: ürün ekleme işlemi yapılmalıdır. (POST)
 -	/product/{id}: id’ye göre ürün bilgisi gösterilmelidir. (GET)
 -	/product/{id}: id’ye göre ürün güncelleme işlemi yapılmalıdır. (PUT)
