@@ -1,18 +1,25 @@
 # Week1Assignment
 
-## Aşağıdaki soruları bir cümleyle cevaplayınız. (4x10 = 40 puan)
-- Soru 1: OOP nedir? Ne amaçlı kullanılır?
-- Soru 2: Polymorphism ne amaçlı kullanılır?
-- Soru 3: Bir metodun private, protected ya da public olması kavramlarını açıklayınız.
-- Soru 4: (Abstraction) Soyutlama nedir?
+##	ARAŞTIRMA (10 puan)
+Lazy Loading ve Eager Loading arasındaki farkları yazınız.
 
-## Aşağıdaki senaryoya göre bir UML Class diagramı çiziniz. (60 puan)
-Bir e-ticaret projesinde, sisteme giriş yapacak farklı kullanıcı türleri mevcuttur. Bu türler üç başlıkta toplanabilir.
-Müşteri (Client), Satıcı (Merchant), Sistem Yöneticisi (Admin)
-Her başlıktaki kullanıcı türleri için aşağıdaki koşullar mevcuttur:
- - Tüm kullanıcıların TCKN numarası olmalıdır.
- - Tüm kullanıcıların ad soyad ve e-posta bilgisi olmalıdır.
- - Müşterilerin eşsiz (unique) müşteri no olmalıdır.
- - Satıcıların eşsiz (unique) satici no olmalıdır.
- - Sistem yöneticilerinin kullanıcı idsi olmalıdır.
- - Satıcıların cep telefonu onaylı olup olmadığı bilgisi olmalıdır.
+##	SYMFONY İLE REST API OLUŞTURMA (90 puan)
+Symfony ile temel bir Rest API oluşturunuz. Bu Rest API ile bir Kullanıcı ürün objesiyle ilgili işlemler oluşturabilmelidir. Bir ürüne ait bu öznitelikler olmalıdır: 
+- id
+- urunAdi,
+- urunAciklamasi, 
+- urunAdedi,
+- urunFiyati,
+- urunKayitTarihi
+
+-Oluşturduğunuz bu Rest API içinde aşağıdaki endpointler olmalıdır:
+-	/product: ürün ekleme işlemi yapılmalıdır. (POST)
+-	/product/{id}: id’ye göre ürün bilgisi gösterilmelidir. (GET)
+-	/product/{id}: id’ye göre ürün güncelleme işlemi yapılmalıdır. (PUT)
+-	/product/{id}: id’ye göre ürün slime işlemi yapılmalıdır. (DELETE)
+
+- Koşullar:
+-	Her endpoint işlem yapıldıktan sonra success mesajı döndürmelidir.
+-	Rest API için tüm dönüş değerleri Json tipinde olmalıdır.
+-	Rest API Postman ile çalıştırılabilir olmalıdır.
+
